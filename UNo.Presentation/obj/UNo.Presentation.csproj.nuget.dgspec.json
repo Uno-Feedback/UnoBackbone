@@ -1,0 +1,459 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\UNo.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj",
+        "projectName": "Uno.Application",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Atlassian.SDK": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj",
+        "projectName": "Uno.Domain",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj",
+        "projectName": "Uno.Infrastructer.ExternalServices",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Atlassian.SDK": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
+        "projectName": "Uno.Infrastructure",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\UNo.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\UNo.Presentation.csproj",
+        "projectName": "UNo.Presentation",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\UNo.Presentation.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj"
+              },
+              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.6.3, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj",
+        "projectName": "Uno.Shared",
+        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj",
+        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

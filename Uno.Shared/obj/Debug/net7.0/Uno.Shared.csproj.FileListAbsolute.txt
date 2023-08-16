@@ -1,0 +1,14 @@
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\bin\Debug\net7.0\Uno.Shared.deps.json
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\bin\Debug\net7.0\Uno.Shared.dll
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\bin\Debug\net7.0\Uno.Shared.pdb
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.csproj.AssemblyReference.cache
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.Resources.ServiceMessage.resources
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.csproj.GenerateResource.cache
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.AssemblyInfoInputs.cache
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.AssemblyInfo.cs
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.csproj.CoreCompileInputs.cache
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.dll
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\refint\Uno.Shared.dll
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\Uno.Shared.pdb
+C:\Users\k.izadpanah\source\repos\UNo\Uno.Shared\obj\Debug\net7.0\ref\Uno.Shared.dll

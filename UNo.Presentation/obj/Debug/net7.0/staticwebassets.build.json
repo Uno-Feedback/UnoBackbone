@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "ao8s7jOgls6sk325vZG79gXzIkmAVV99RCT/lIRqfdA=",
+  "Source": "UNo.Presentation",
+  "BasePath": "_content/UNo.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UNo.Presentation\\wwwroot",
+      "Source": "UNo.Presentation",
+      "ContentRoot": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\",
+      "BasePath": "_content/UNo.Presentation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\Host\\2023-7\\2e4ea85d-2aac-4fd2-9f1a-3d3108d7528e.mp4",
+      "SourceId": "UNo.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\",
+      "BasePath": "_content/UNo.Presentation",
+      "RelativePath": "Host/2023-7/2e4ea85d-2aac-4fd2-9f1a-3d3108d7528e.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Host\\2023-7\\2e4ea85d-2aac-4fd2-9f1a-3d3108d7528e.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\Host\\2023-7\\997d3ebb-9bb6-4192-b45c-cbbc2c3928bd.mp4",
+      "SourceId": "UNo.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\",
+      "BasePath": "_content/UNo.Presentation",
+      "RelativePath": "Host/2023-7/997d3ebb-9bb6-4192-b45c-cbbc2c3928bd.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Host\\2023-7\\997d3ebb-9bb6-4192-b45c-cbbc2c3928bd.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\Host\\2023-7\\f874482e-00b8-4fc8-9ce1-1fb3a944a271.mp4",
+      "SourceId": "UNo.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\",
+      "BasePath": "_content/UNo.Presentation",
+      "RelativePath": "Host/2023-7/f874482e-00b8-4fc8-9ce1-1fb3a944a271.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Host\\2023-7\\f874482e-00b8-4fc8-9ce1-1fb3a944a271.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\Host\\2023-8\\3dab2b8e-5d1c-4930-80d9-19fd473f497f.mp4",
+      "SourceId": "UNo.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\UNo.Presentation\\wwwroot\\",
+      "BasePath": "_content/UNo.Presentation",
+      "RelativePath": "Host/2023-8/3dab2b8e-5d1c-4930-80d9-19fd473f497f.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Host\\2023-8\\3dab2b8e-5d1c-4930-80d9-19fd473f497f.mp4"
+    }
+  ]
+}
