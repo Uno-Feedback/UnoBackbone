@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "DhxPi1IVHQGcpklbDVxa94tvALVV9zzt154mKhmeZnylCkAv9AcXHwLJpJkqXfdAFYsnSiyQF1QXoy7sV7dogw==",
+  "dgSpecHash": "OxHY3cXIlN55jfbFxo/vc2MTgiaIRQYAC2zUtLoB9iQj1TR1v451W6jYPBqG36jQjUTHstzdgpfg4mVklGhMmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj",
+  "projectFilePath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\k.izadpanah\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\k.izadpanah\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\k.izadpanah\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\k.izadpanah\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\k.izadpanah\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\k.izadpanah\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\k.izadpanah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

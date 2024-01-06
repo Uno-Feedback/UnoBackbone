@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {}
+    "C:\\AzureRepos\\uno\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
+    "C:\\AzureRepos\\uno\\Uno.Application\\Uno.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj",
+        "projectUniqueName": "C:\\AzureRepos\\uno\\Uno.Application\\Uno.Application.csproj",
         "projectName": "Uno.Application",
-        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj",
+        "projectPath": "C:\\AzureRepos\\uno\\Uno.Application\\Uno.Application.csproj",
         "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\obj\\",
+        "outputPath": "C:\\AzureRepos\\uno\\Uno.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj"
               },
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj"
               }
             }
           }
@@ -41,6 +41,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -87,23 +90,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
+    "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj",
+        "projectUniqueName": "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj",
         "projectName": "Uno.Domain",
-        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj",
+        "projectPath": "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj",
         "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\obj\\",
+        "outputPath": "C:\\AzureRepos\\uno\\Uno.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,8 +137,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj"
               }
             }
           }
@@ -130,6 +147,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -146,23 +166,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {
+    "C:\\AzureRepos\\uno\\Uno.Infrastructure\\Uno.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
+        "projectUniqueName": "C:\\AzureRepos\\uno\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
         "projectName": "Uno.Infrastructure",
-        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
+        "projectPath": "C:\\AzureRepos\\uno\\Uno.Infrastructure\\Uno.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Infrastructure\\obj\\",
+        "outputPath": "C:\\AzureRepos\\uno\\Uno.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,14 +213,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Application\\Uno.Application.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Application\\Uno.Application.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Application\\Uno.Application.csproj"
               },
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Domain\\Uno.Domain.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Domain\\Uno.Domain.csproj"
               },
-              "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
-                "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj"
+              "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj"
               }
             }
           }
@@ -195,6 +229,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -233,23 +270,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj": {
+    "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj",
+        "projectUniqueName": "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj",
         "projectName": "Uno.Shared",
-        "projectPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\Uno.Shared.csproj",
+        "projectPath": "C:\\AzureRepos\\uno\\Uno.Shared\\Uno.Shared.csproj",
         "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k.izadpanah\\source\\repos\\UNo\\Uno.Shared\\obj\\",
+        "outputPath": "C:\\AzureRepos\\uno\\Uno.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -272,6 +323,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -294,12 +348,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

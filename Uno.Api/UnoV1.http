@@ -1,0 +1,6 @@
+@UnoV1_HostAddress = http://localhost:5121
+
+GET {{UnoV1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

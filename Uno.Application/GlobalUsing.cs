@@ -1,0 +1,13 @@
+﻿global using MediatR;
+global using Uno.Shared;
+global using Uno.Domain.Entities;
+global using FluentValidation;
+global using Microsoft.EntityFrameworkCore;
+global using Uno.Application.Common;
+global using Uno.Application.Resources;
+global using Uno.Shared.Extentions;
+global using Uno.Shared.Common;
+global using Uno.Application.Common.Dtos;
+global using Uno.Application.Common.Contracts;
+global using Uno.Domain.Enums;
+global using Uno.Domain.Extentions;

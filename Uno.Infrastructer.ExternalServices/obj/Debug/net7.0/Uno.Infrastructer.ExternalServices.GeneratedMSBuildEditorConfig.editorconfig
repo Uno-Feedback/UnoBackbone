@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Uno.Infrastructer.ExternalServices
-build_property.ProjectDir = C:\Users\k.izadpanah\source\repos\UNo\Uno.Infrastructer.ExternalServices\
+build_property.ProjectDir = C:\Repos\UnoV1-Github\UnoBackbone\UnoBackbone\UnoBackbone\Uno.Infrastructer.ExternalServices\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
