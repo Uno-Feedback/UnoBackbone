@@ -70,9 +70,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj",
-      "projectName": "Uno.Infrastructer.ExternalServices",
-      "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj",
+      "projectUniqueName": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructure.ExternalServices.csproj",
+      "projectName": "Uno.Infrastructure.ExternalServices",
+      "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructure.ExternalServices.csproj",
       "packagesPath": "C:\\Users\\m.karimi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ld2YwM8hFFezg4mOhB+vMrGVO68rsteslaLsrjWpUDoi/dTD46xcE78XpphNBiXJzbSa53OPcxIm9EBdOnu/tw==",
+  "dgSpecHash": "9r7aqFiBIm1ri+tdLr9sVCOLSn13n5rRDaNc623rZKDNORDhqjAUXEuhEi3VvbNezm+UeU610uGoYSDfdq0Kwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructer.ExternalServices.csproj",
+  "projectFilePath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Infrastructer.ExternalServices\\Uno.Infrastructure.ExternalServices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
