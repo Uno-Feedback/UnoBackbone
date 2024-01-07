@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Diagnostics;
 using Uno.Api;
 using Uno.Application;
 using Uno.Application.Settings;
-using Uno.Infrastructer;
-using Uno.Infrastructer.ExternalServices;
+using Uno.Infrastructure;
+using Uno.Infrastructure.ExternalServices;
 using Uno.Shared.Common;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,8 +17,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services
     .RegisterApplicationServices()
-    .RegisterInfrastructerExternalServices()
-    .RegisterInfrastructerServices(builder.Configuration)
+    .RegisterInfrastructureExternalServices()
+    .RegisterInfrastructureServices(builder.Configuration)
     .RegisterPresentationServices(builder.Configuration);
 
 builder.Services.Configure<HostSettings>(builder.Configuration.GetSection(nameof(HostSettings)));

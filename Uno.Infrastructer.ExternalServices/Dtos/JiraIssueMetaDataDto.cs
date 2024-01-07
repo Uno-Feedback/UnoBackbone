@@ -1,3 +1,3 @@
-﻿namespace Uno.Infrastructer.ExternalServices.Dtos;
+﻿namespace Uno.Infrastructure.ExternalServices.Dtos;
 
 public record JiraIssueMetadataDto(string IssueKey);

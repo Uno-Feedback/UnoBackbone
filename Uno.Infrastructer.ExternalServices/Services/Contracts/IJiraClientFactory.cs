@@ -1,4 +1,4 @@
-﻿namespace Uno.Infrastructer.ExternalServices.Services.Contracts;
+﻿namespace Uno.Infrastructure.ExternalServices.Services.Contracts;
 /// <summary>
 /// An Interface for recieving Jira Client.
 /// </summary>

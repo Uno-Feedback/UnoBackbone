@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Uno.Shared.Extentions;
 
-namespace Uno.Infrastructer.ExternalServices.Services;
+namespace Uno.Infrastructure.ExternalServices.Services;
 #nullable disable
 
 /// <summary>

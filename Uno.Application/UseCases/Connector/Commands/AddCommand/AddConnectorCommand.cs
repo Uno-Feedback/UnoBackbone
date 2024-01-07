@@ -1,6 +1,4 @@
-﻿
-
-namespace Uno.Application.Services;
+﻿namespace Uno.Application.Services;
 
 public record AddConnectorCommand : IRequest<Response<object>>
 {

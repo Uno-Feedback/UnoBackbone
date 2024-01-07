@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Uno.Domain.Entities;
 
-namespace Uno.Infrastructer.EntitesConfigs;
+namespace Uno.Infrastructure.EntitesConfigs;
 
 public class ConnetorReportTypesConfigurations : IEntityTypeConfiguration<ConnectorReportTypes>
 {

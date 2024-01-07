@@ -10,8 +10,8 @@ COPY ["Uno.Api/Uno.Api.csproj", "Uno.Api/"]
 COPY ["Uno.Application/Uno.Application.csproj", "Uno.Application/"]
 COPY ["Uno.Domain/Uno.Domain.csproj", "Uno.Domain/"]
 COPY ["Uno.Shared/Uno.Shared.csproj", "Uno.Shared/"]
-COPY ["Uno.Infrastructer.ExternalServices/Uno.Infrastructer.ExternalServices.csproj", "Uno.Infrastructer.ExternalServices/"]
-COPY ["Uno.Infrastructer/Uno.Infrastructer.csproj", "Uno.Infrastructer/"]
+COPY ["Uno.Infrastructure.ExternalServices/Uno.Infrastructure.ExternalServices.csproj", "Uno.Infrastructure.ExternalServices/"]
+COPY ["Uno.Infrastructure/Uno.Infrastructure.csproj", "Uno.Infrastructure/"]
 RUN dotnet restore "Uno.Api/Uno.Api.csproj"
 COPY . .
 WORKDIR "/src/Uno.Api"

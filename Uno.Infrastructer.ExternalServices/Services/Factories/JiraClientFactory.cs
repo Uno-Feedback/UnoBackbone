@@ -1,7 +1,7 @@
-﻿using Uno.Infrastructer.ExternalServices.Dtos;
-using Uno.Infrastructer.ExternalServices.Services.Contracts;
+﻿using Uno.Infrastructure.ExternalServices.Dtos;
+using Uno.Infrastructure.ExternalServices.Services.Contracts;
 
-namespace Uno.Infrastructer.ExternalServices.Services;
+namespace Uno.Infrastructure.ExternalServices.Services;
 
 public class JiraClientFactory : IJiraClientFactory
 {

@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Uno.Infrastructer.AppDbContext;
+using Uno.Infrastructure.AppDbContext;
 
 #nullable disable
 
-namespace Uno.Infrastructer.Migrations
+namespace Uno.Infrastructure.Migrations
 {
     [DbContext(typeof(UnoDbContext))]
     [Migration("20240103092855_init")]

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj": {}
+    "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj": {
+    "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj",
         "projectName": "Uno.Domain",
-        "projectPath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj",
-        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Domain\\obj\\",
+        "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Domain\\Uno.Domain.csproj",
+        "packagesPath": "C:\\Users\\m.karimi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.karimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj": {
-                "projectPath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj"
+              "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj"
               }
             }
           }
@@ -38,65 +39,36 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj": {
+    "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
         "projectName": "Uno.Shared",
-        "projectPath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
-        "packagesPath": "C:\\Users\\k.izadpanah\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\UnoV1-Github\\UnoBackbone\\UnoBackbone\\UnoBackbone\\Uno.Shared\\obj\\",
+        "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
+        "packagesPath": "C:\\Users\\m.karimi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.izadpanah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.karimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,6 +76,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,51 +89,22 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

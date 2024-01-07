@@ -1,6 +1,6 @@
 ﻿#nullable disable
 
-namespace Uno.Infrastructer.ExternalServices.Services.Factories;
+namespace Uno.Infrastructure.ExternalServices.Services.Factories;
 public class ClientAdapterFactory : IClientAdapterFactory
 {
     private readonly IServiceProvider _serviceProvider;

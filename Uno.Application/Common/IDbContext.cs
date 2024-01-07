@@ -9,6 +9,4 @@ public interface IDbContext : IDisposable, IAsyncDisposable
     DatabaseFacade DatabaseFacade();
     Task<Response> SaveChangeResposeAsync(CancellationToken ct = default);
     Response SaveChangeResponse();
-
-
 }

@@ -1,13 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Infrastructure;
-using System.Reflection;
-using Uno.Application.Common;
-using Uno.Domain.Common;
-using Uno.Domain.Constants;
-using Uno.Infrastructer.Extentions;
-using Uno.Shared.Common;
+﻿using Uno.Infrastructure.Extentions;
 
-#nullable disable
-namespace Uno.Infrastructer.AppDbContext;
+namespace Uno.Infrastructure.AppDbContext;
 
 public class UnoDbContext : DbContext, IDbContext
 {
@@ -32,7 +25,7 @@ public class UnoDbContext : DbContext, IDbContext
     {
         try
         {
-            return await SaveChangesAsync(cancellationToken) == 0 ? Response.Error() : Response.Success();
+            return await SaveChangesAsync(cancellationToken) is 0 ? Response.Error() : Response.Success();
         }
         catch (Exception ex)
         {
@@ -44,7 +37,7 @@ public class UnoDbContext : DbContext, IDbContext
     {
         try
         {
-            return SaveChanges() == 0 ? Response.Error() : Response.Success();
+            return SaveChanges() is 0 ? Response.Error() : Response.Success();
         }
         catch (Exception ex)
         {
@@ -53,7 +46,7 @@ public class UnoDbContext : DbContext, IDbContext
     }
 
     public new DbSet<TEntity> Set<TEntity>() where TEntity : class, IEntity
-    => base.Set<TEntity>();
+        => base.Set<TEntity>();
 
     public DatabaseFacade DatabaseFacade()
         => Database;

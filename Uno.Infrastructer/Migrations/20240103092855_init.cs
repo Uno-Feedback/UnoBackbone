@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Uno.Infrastructer.Migrations
+namespace Uno.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class init : Migration

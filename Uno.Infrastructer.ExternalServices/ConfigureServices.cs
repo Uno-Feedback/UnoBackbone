@@ -1,15 +1,15 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Uno.Infrastructer.ExternalServices.Services;
-using Uno.Infrastructer.ExternalServices.Services.Factories;
+using Uno.Infrastructure.ExternalServices.Services;
+using Uno.Infrastructure.ExternalServices.Services.Factories;
 
-namespace Uno.Infrastructer.ExternalServices;
+namespace Uno.Infrastructure.ExternalServices;
 
 /// <summary>
-/// This extention is programmed for registering Infrastructer.External services .
+/// This extention is programmed for registering Infrastructure.External services .
 /// </summary>
 public static class ConfigureServices
 {
-    public static IServiceCollection RegisterInfrastructerExternalServices(this IServiceCollection services)
+    public static IServiceCollection RegisterInfrastructureExternalServices(this IServiceCollection services)
     {
         services.AddScoped<IClientAdapterFactory, ClientAdapterFactory>();
         services.AddScoped<JiraAdapter>().AddScoped<IClientAdapter, JiraAdapter>();
