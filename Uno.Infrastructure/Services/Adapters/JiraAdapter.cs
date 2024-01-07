@@ -1,8 +1,4 @@
-﻿using Newtonsoft.Json;
-using Uno.Shared.Extentions;
-
-namespace Uno.Infrastructure.ExternalServices.Services;
-#nullable disable
+﻿namespace Uno.Infrastructure.ExternalServices.Services;
 
 /// <summary>
 /// Jira ClientAdapter.
@@ -12,14 +8,13 @@ public class JiraAdapter : IClientAdapter
     private readonly IDbContext _dbContext;
     private readonly IJiraClientFactory _jiraClientFactory;
 
-    public JiraAdapter(IDbContext unitOfWork, IJiraClientFactory jiraClientFactory)
+    public JiraAdapter(IDbContext dbContext, IJiraClientFactory jiraClientFactory)
     {
-        _dbContext = unitOfWork;
+        _dbContext = dbContext;
         _jiraClientFactory = jiraClientFactory;
     }
 
-
-    private async Task<Response<string>> CreateIssue(SendIssueDto issueDto, JiraIssueConnectorMetaData connectorMetaData, CancellationToken cancellationToken)
+    private async Task<Response<string>> CreateIssue(SendIssueDto issueDto, JiraIssueConnectorMetaData connectorMetaData, CancellationToken cancellationToken = default)
     {
         var jiraClient = _jiraClientFactory.GetJiraClient(new JiraConfig(issueDto.Connector.Url, issueDto.Connector.UserName, issueDto.Connector.Password));
         try
@@ -33,8 +28,10 @@ public class JiraAdapter : IClientAdapter
             };
             await newIssue.SaveChangesAsync(cancellationToken);
 
-            var connctorInIssue = await _dbContext.Set<ConnectorInIssue>().FindAsync(issueDto.ConnectorInIssueId, cancellationToken);
-            connctorInIssue.IssueMetaData = JsonConvert.SerializeObject(new JiraIssueMetadataDto(newIssue.Key.ToString())); 
+            var connctorInIssue = await _dbContext.Set<ConnectorInIssue>()
+                                                  .FindAsync(issueDto.ConnectorInIssueId, cancellationToken);
+
+            connctorInIssue.IssueMetaData = JsonConvert.SerializeObject(new JiraIssueMetadataDto(newIssue.Key.ToString()));
 
             var saveChangeResponse = await _dbContext.SaveChangeResposeAsync(cancellationToken);
 
@@ -100,21 +97,20 @@ public class JiraAdapter : IClientAdapter
         if (string.IsNullOrWhiteSpace(issueDto.IssueMetaData))
         {
             var connectorMetadata = JsonConvert.DeserializeObject<JiraIssueConnectorMetaData>(issueDto.ConnectorMetaData);
-            var createIssueResponse = await CreateIssue(issueDto, connectorMetadata, cancellationToken);
+            return await CreateIssue(issueDto, connectorMetadata, cancellationToken);
 
-            return createIssueResponse.IsSuccess ?
-                Response<Domain.Enums.IssueStatus>.Success(Domain.Enums.IssueStatus.SendWithoutAttachment) : 
-                Response<Domain.Enums.IssueStatus>.Error(createIssueResponse.Message);
+            //return createIssueResponse.IsSuccess ?
+            //    Response<Domain.Enums.IssueStatus>.Success(Domain.Enums.IssueStatus.SendWithoutAttachment) :
+            //    Response<Domain.Enums.IssueStatus>.Error(createIssueResponse.Message);
         }
         else
         {
             issueDto.IssueMetaData = JsonConvert.DeserializeObject<JiraIssueMetadataDto>(issueDto.IssueMetaData).IssueKey;
+            return await UploadAttachment(issueDto, cancellationToken);
 
-            var uploadAttachmentResponse = await UploadAttachment(issueDto, cancellationToken);
-
-            return uploadAttachmentResponse.IsSuccess ?
-                Response<Domain.Enums.IssueStatus>.Success(Domain.Enums.IssueStatus.Finished) :
-                Response<Domain.Enums.IssueStatus>.Error(uploadAttachmentResponse.Message);
+            //return uploadAttachmentResponse.IsSuccess ?
+            //    Response<Domain.Enums.IssueStatus>.Success(Domain.Enums.IssueStatus.Finished) :
+            //    Response<Domain.Enums.IssueStatus>.Error(uploadAttachmentResponse.Message);
         }
     }
 }
