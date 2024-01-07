@@ -142,6 +142,9 @@
             "projectReferences": {
               "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Application\\Uno.Application.csproj": {
                 "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Application\\Uno.Application.csproj"
+              },
+              "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj": {
+                "projectPath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj"
               }
             }
           }

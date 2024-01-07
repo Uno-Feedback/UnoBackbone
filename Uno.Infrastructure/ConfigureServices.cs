@@ -1,18 +1,19 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Uno.Application.Common;
-using Uno.Infrastructure.AppDbContext;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Uno.Infrastructure.ExternalServices.Services;
+using Uno.Infrastructure.ExternalServices.Services.Factories;
 
-namespace Uno.Infrastructure;
+namespace Uno.Infrastructure.ExternalServices;
 
 /// <summary>
-/// This extention is programmed for registering Infrastructure services .
+/// This extention is programmed for registering Infrastructure.External services .
 /// </summary>
 public static class ConfigureServices
 {
-    public static IServiceCollection RegisterInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection RegisterInfrastructureExternalServices(this IServiceCollection services)
     {
-        services.AddDbContext<IDbContext, UnoDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString(nameof(UnoDbContext))));
+        services.AddScoped<IClientAdapterFactory, ClientAdapterFactory>();
+        services.AddScoped<JiraAdapter>().AddScoped<IClientAdapter, JiraAdapter>();
+        services.AddScoped<IJiraClientFactory, JiraClientFactory>();
         return services;
     }
 }
