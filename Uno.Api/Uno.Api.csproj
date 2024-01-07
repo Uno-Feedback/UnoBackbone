@@ -26,8 +26,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Uno.Application\Uno.Application.csproj" />
-    <ProjectReference Include="..\Uno.Infrastructure.ExternalServices\Uno.Infrastructure.ExternalServices.csproj" />
-    <ProjectReference Include="..\Uno.Infrastructure\Uno.Infrastructure.csproj" />
+    <ProjectReference Include="..\Uno.Infrastructure.ExternalServices\Uno.Infrastructure.csproj" />
+    <ProjectReference Include="..\Uno.Infrastructure\Uno.Infrastructure.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
