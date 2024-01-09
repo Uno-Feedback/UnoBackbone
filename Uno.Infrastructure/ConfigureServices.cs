@@ -1,4 +1,5 @@
-﻿using Uno.Infrastructure.ExternalServices.Services;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Uno.Infrastructure.ExternalServices.Services;
 using Uno.Infrastructure.ExternalServices.Services.Factories;
 
 namespace Uno.Infrastructure.ExternalServices;
@@ -12,7 +13,6 @@ public static class ConfigureServices
     {
         services.AddScoped<IClientAdapterFactory, ClientAdapterFactory>();
         services.AddScoped<JiraAdapter>().AddScoped<IClientAdapter, JiraAdapter>();
-        services.AddScoped<IJiraClientFactory, JiraClientFactory>();
         return services;
     }
 }

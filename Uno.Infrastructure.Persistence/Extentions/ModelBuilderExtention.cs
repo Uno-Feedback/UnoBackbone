@@ -1,4 +1,7 @@
-﻿namespace Uno.Infrastructure.Extentions;
+﻿using System.Reflection;
+using Uno.Domain.Common;
+
+namespace Uno.Infrastructure.Extentions;
 
 /// <summary>
 /// This extention is programmed for registering Entities that are defined the EntityAttribute .

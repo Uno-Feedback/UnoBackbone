@@ -3,16 +3,23 @@
 public class AddProjectCommandHandler : IRequestHandler<AddProjectCommand, Response<object>>
 {
     private readonly IDbContext _dbContext;
+
     public AddProjectCommandHandler(IDbContext dbContext)
-         => _dbContext = dbContext;
+        => _dbContext = dbContext;
 
     public async Task<Response<object>> Handle(AddProjectCommand request, CancellationToken cancellationToken)
     {
-        var newProject = new Project().MapFrom(request);
-
+        var newProject = new Project()
+        {
+            UserId = request.UserId,
+            Name = request.Name,
+            IP = request.IP
+        };
         _dbContext.Set<Project>().Add(newProject);
         var saveResponse = await _dbContext.SaveChangeResposeAsync(cancellationToken);
 
-        return saveResponse.IsSuccess ? Response<object>.Success(new { newProject.Id }) : Response<object>.Error(saveResponse.Message);
+        return saveResponse.IsSuccess
+            ? Response<object>.Success(new { newProject.Id })
+            : Response<object>.Error(saveResponse.Message);
     }
 }

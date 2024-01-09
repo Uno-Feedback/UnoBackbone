@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WBI5j6S36tUNOE7Zum2MTuC+th/Rf/sLRi13B5rCuukyCP0ET6SEr7InEIss3ki1dgftDpWKpqKZS5taKxpPjg==",
+  "dgSpecHash": "sjlS9I7hErb30Gd0+4P0kF5/QgwK8UcO+bbiXYSEkhS1e09mKwg9A26qyCXrQwLuFczgtNoKJSSMvJgjkevWWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\m.karimi\\source\\repos\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Projects\\UnoBackbone\\Uno.Shared\\Uno.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mavara\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Mavara\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mavara\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

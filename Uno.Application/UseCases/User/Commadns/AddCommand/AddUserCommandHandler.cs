@@ -9,11 +9,21 @@ public class AddUserCommandHandler : IRequestHandler<AddUserCommand, Response<ob
 
     public async Task<Response<object>> Handle(AddUserCommand request, CancellationToken cancellationToken)
     {
-        var newUser = new User().MapFrom(request);
+        var newUser = new User
+        {
+            FirstName = request.FirstName,
+            LastName = request.LastName,
+            Email = request.Email,
+            Password = request.Password,
+            CompanyName = request.CompanyName,
+            PhoneNumber = request.PhoneNumber
+        };
 
         _dbContext.Set<User>().Add(newUser);
         var saveResponse = await _dbContext.SaveChangeResposeAsync(cancellationToken);
 
-        return saveResponse.IsSuccess ? Response<object>.Success(newUser) : Response<object>.Error(saveResponse.Message);
+        return saveResponse.IsSuccess
+            ? Response<object>.Success(newUser.Id)
+            : Response<object>.Error(saveResponse.Message);
     }
 }

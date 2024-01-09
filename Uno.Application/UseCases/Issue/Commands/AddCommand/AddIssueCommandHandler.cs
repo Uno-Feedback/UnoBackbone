@@ -19,7 +19,10 @@ public class AddIssueCommandHandler : IRequestHandler<AddIssueCommand, Response<
 
     public async Task<Response<object>> Handle(AddIssueCommand request, CancellationToken cancellationToken)
     {
-        var fileValidationResponse = _fileValidationServiceFactory.GetInstance(request.AttachmentType).Validate(request.File);
+        var fileValidationResponse = _fileValidationServiceFactory
+                                     .GetInstance(request.AttachmentType)
+                                     .Validate(request.File);
+        
         if (fileValidationResponse.IsFailure)
             return Response<object>.Error(fileValidationResponse.Message);
 
@@ -30,17 +33,17 @@ public class AddIssueCommandHandler : IRequestHandler<AddIssueCommand, Response<
             Subject = request.Subject,
             Reporter = request.Reporter,
             Url = request.ReportUrl,
+            Attachments = new List<IssueAttachment>()
+            {
+                new IssueAttachment()
+                {
+                    Type = request.AttachmentType,
+                    Name = request.File.FileName,
+                    Content = await request.File.ConvertToBase64()
+                }
+            }
         };
-
-        var issueAttachment = new IssueAttachment
-        {
-            Issue = issue,
-            Type = request.AttachmentType,
-            Name = request.File.FileName,
-            Content = await request.File.ConvertToBase64()
-        };
-
-        _dbContext.Set<IssueAttachment>().Add(issueAttachment);
+        
         _dbContext.Set<Issue>().Add(issue);
         _dbContext.Set<ConnectorInIssue>().Add(new ConnectorInIssue
         {
@@ -50,10 +53,10 @@ public class AddIssueCommandHandler : IRequestHandler<AddIssueCommand, Response<
             ClientMetaData = request.ClientMetaData,
         });
 
-        var addConnectorInIssueSaveResponse = await _dbContext.SaveChangeResposeAsync(cancellationToken);
-        if (addConnectorInIssueSaveResponse.IsFailure)
-            throw new Exception(addConnectorInIssueSaveResponse.Message);
+        var saveChangeResponse = await _dbContext.SaveChangeResposeAsync(cancellationToken);
 
-        return Response<object>.Success(new { issue.Id });
+        return saveChangeResponse.IsSuccess
+            ? Response<object>.Success(new { issue.Id })
+            : Response<object>.Error(saveChangeResponse.Message);
     }
 }
