@@ -55,3 +55,13 @@ C:\AzureRepos\uno\Uno.Application\obj\Debug\net7.0\Uno.Application.dll
 C:\AzureRepos\uno\Uno.Application\obj\Debug\net7.0\refint\Uno.Application.dll
 C:\AzureRepos\uno\Uno.Application\obj\Debug\net7.0\Uno.Application.pdb
 C:\AzureRepos\uno\Uno.Application\obj\Debug\net7.0\ref\Uno.Application.dll
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.csproj.AssemblyReference.cache
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.Resources.ServiceMessages.resources
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.csproj.GenerateResource.cache
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.AssemblyInfoInputs.cache
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.AssemblyInfo.cs
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.csproj.CoreCompileInputs.cache
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.dll
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\refint\Uno.Application.dll
+E:\Projects\UnoBackbone\Uno.Application\obj\Debug\net7.0\Uno.Application.pdb

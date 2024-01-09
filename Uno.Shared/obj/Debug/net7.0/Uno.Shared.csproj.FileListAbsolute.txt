@@ -32,3 +32,15 @@ C:\AzureRepos\uno\Uno.Shared\obj\Debug\net7.0\Uno.Shared.dll
 C:\AzureRepos\uno\Uno.Shared\obj\Debug\net7.0\refint\Uno.Shared.dll
 C:\AzureRepos\uno\Uno.Shared\obj\Debug\net7.0\Uno.Shared.pdb
 C:\AzureRepos\uno\Uno.Shared\obj\Debug\net7.0\ref\Uno.Shared.dll
+E:\Projects\UnoBackbone\Uno.Shared\bin\Debug\net7.0\Uno.Shared.deps.json
+E:\Projects\UnoBackbone\Uno.Shared\bin\Debug\net7.0\Uno.Shared.dll
+E:\Projects\UnoBackbone\Uno.Shared\bin\Debug\net7.0\Uno.Shared.pdb
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.csproj.AssemblyReference.cache
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.AssemblyInfoInputs.cache
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.AssemblyInfo.cs
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.csproj.CoreCompileInputs.cache
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.dll
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\refint\Uno.Shared.dll
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\Uno.Shared.pdb
+E:\Projects\UnoBackbone\Uno.Shared\obj\Debug\net7.0\ref\Uno.Shared.dll

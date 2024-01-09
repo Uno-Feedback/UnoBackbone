@@ -1,5 +1,4 @@
 ﻿using Uno.Api.Quartz.Config;
-using Uno.Api.Quartz.Settings;
 
 namespace Uno.Api;
 
@@ -9,9 +8,6 @@ public static class ConfigureServices
     {
         services.AddHttpClient();
         services.RegisterQuartzServices(configuration);
-
-        services.Configure<IssueJobConfig>(configuration.GetSection(nameof(IssueJobConfig)));
-
         return services;
     }
 }

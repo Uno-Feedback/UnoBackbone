@@ -1,6 +1,6 @@
-﻿namespace Uno.Api.Quartz.Settings;
+﻿namespace Uno.Application.Settings;
 
-public record IssueJobConfig
+public record SendIssueConfig
 {
     public string TakeCount { get; set; }
     public string TimePeriod { get; set; }

@@ -168,4 +168,10 @@
   <data name="UserEmailAlreadyExists" xml:space="preserve">
     <value>ایمیل کاربر قبلا ثبت شده است </value>
   </data>
+  <data name="IssueNotFound" xml:space="preserve">
+    <value>ایسسیویی پیدا نشد.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>عملیات موفقیت آمیز به پایان رسید.</value>
+  </data>
 </root>
